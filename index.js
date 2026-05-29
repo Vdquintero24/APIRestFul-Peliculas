@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const sequelize = require("./db");
-require('./peliculas-api-clean validación por token (JWT)/modules/pelicula.model');
+require('./modules/pelicula.model');
 
 // Rutas
 const peliculasRouter = require('./routes/peliculas.routes');

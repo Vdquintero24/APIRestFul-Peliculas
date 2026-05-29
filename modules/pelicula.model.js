@@ -1,6 +1,6 @@
 // src/modules/peliculas/pelicula.model.js
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+const sequelize = require('../peliculas-api-clean validación por token (JWT)/config/database');
 
 const Pelicula = sequelize.define('Pelicula', {
   id: {
