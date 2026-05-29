@@ -1,6 +1,6 @@
 const { Router }
 = require('express');
-const peliculasService = require('../peliculas-api-clean validación por token (JWT)/peliculas.service');
+const peliculasService = require('../peliculas.service');
 const validarToken
 = require('../middlewares/validateToken');
 const router = Router();
