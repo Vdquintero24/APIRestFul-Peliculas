@@ -1,4 +1,4 @@
-const Pelicula = require('../modules/peliculas/pelicula.model');
+const Pelicula = require('../modules/pelicula.model');
 
 const obtenerTodas = async () => {
   return await Pelicula.findAll({
