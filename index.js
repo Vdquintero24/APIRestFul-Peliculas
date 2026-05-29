@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json());
 
-const sequelize = require('./modules/db');
+const sequelize = require("./db");
 require('./modules/pelicula.model');
 
 //rutas
