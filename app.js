@@ -1,12 +1,12 @@
 require('dotenv').config();
 const express   = require('express');
-const sequelize = require('./config/database');
-const logger    = require('./middlewares/logger');
-const authRoutes = require('./routes/auth.routes');
+const sequelize = require('./peliculas-api-clean validación por token (JWT)/src/config/database');
+const logger    = require('./peliculas-api-clean validación por token (JWT)/src/middlewares/logger');
+const authRoutes = require('./peliculas-api-clean validación por token (JWT)/src/routes/auth.routes');
 
-require('./modules/peliculas/pelicula.model');
+require('./peliculas-api-clean validación por token (JWT)/src/modules/peliculas/pelicula.model');
 
-const peliculasRoutes = require('./routes/peliculas.routes');
+const peliculasRoutes = require('./peliculas-api-clean validación por token (JWT)/src/routes/peliculas.routes');
 
 const app  = express();
 const PORT = process.env.PORT || 3000;
