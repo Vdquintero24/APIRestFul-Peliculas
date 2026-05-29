@@ -1,6 +1,7 @@
 {
   "name": "peliculas-api",
   "version": "1.0.0",
+  "type": "module",
   "description": "API RESTful para gestión de películas con Express, Sequelize y SQLite",
   "main": "src/app.js",
   "scripts": {
